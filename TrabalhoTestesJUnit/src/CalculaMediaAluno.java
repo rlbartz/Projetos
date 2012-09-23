@@ -11,7 +11,6 @@ public class CalculaMediaAluno {
 		if (media < 70.0f && media >= 50.0f) {
 			return "Em recuperação";
 		}
-
 		if (media >= 70) {
 			return "Aprovado";
 		}
